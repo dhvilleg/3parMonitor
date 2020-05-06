@@ -1,0 +1,100 @@
+echo "31-05-2017,11:50:20,3PAR_ECBPSTG05,DISK,Disk experiencing a high level of I/O per second 275,High" output.log 
+echo "31-05-2017,11:50:20,3PAR_ECBPSTG05,DISK,Disk experiencing a high level of I/O per second 275,High" >> output.log 
+echo "31-05-2017,11:50:20,3PAR_ECBPSTG05,DISK,Disk experiencing a high level of I/O per second 275,High" >> output.log 
+ls -lrt
+cat output.log
+echo "31-05-2017,11:50:20,3PAR_ECBPSTG05,DISK,Disk experiencing a high level of I/O per second 275,High" >> output.log 
+echo "31-05-2017,11:50:20,3PAR_ECBPSTG04,DISK,Disk experiencing a high level of I/O per second 275,High" >> output.log 
+echo "31-05-2017,11:50:20,3PAR_ECBPSTG04,DISK,Disk experiencing a high level of I/O per second 275,High" >> output.log 
+echo "31-05-2017,11:50:20,3PAR_ECBPSTG01,DISK,Disk experiencing a high level of I/O per second 275,High" >> output.log 
+crontab -l
+cat /opt/OV/3parmonitor/3parMonitor.sh
+cat /opt/OV/3parmonitor/3parMonitor.sh
+cd ../etc/
+ls -lrt
+cat monitor.conf
+cat conection.conf
+crontab -l
+bash -x /opt/OV/3parmonitor/3parMonitor.sh checkhealth
+usrhpsom@3PAR_ECBPSTG01 checkhealth -svc -detail
+ssh usrhpsom@3PAR_ECBPSTG01 checkhealth -svc -detail
+ls -lrt
+cat  monitor.conf
+cd ..
+cd log/
+ls -lrt
+cat temporal_checkhealth.log | grep "Host ports not configured for virtual port support"
+cat temporal_checkhealth.log | grep "Expired BatteriesA
+cat temporal_checkhealth.log | grep "Expired Batteries"
+cat temporal_checkhealth.log | grep "Ports not configured symmetrically"
+cat temporal_checkhealth.log | grep "Host ports not configured for virtual port support"
+clear
+ls -lrt
+ssh usrhpsom@3PAR_ECBPSTG01 showalert -n -oneline -wide
+cd ../etc
+ls -lrt
+cat monitor.conf
+cd ../log/
+ls -lrt
+cat output.log
+crontab -l
+clear
+cat /opt/OV/3parmonitor/3parMonitor.sh
+>/opt/OV/3parmonitor/3parMonitor.sh
+vi /opt/OV/3parmonitor/3parMonitor.sh
+cat /opt/OV/3parmonitor/3parMonitor.sh
+bdf
+cd /opt/OV
+ls
+cd 3parmonitor
+ls
+cd log
+ls
+cat ls -alrt 
+ls -alrt
+cat output.log
+cat /etc/hosts
+cd ..
+ls
+cat 3parMonitor.sh
+cd log
+ls
+cat output.log
+cd /opt/OV/3parmonitor/log 
+ls -ltr
+tail -f output.log
+tail -f output.log
+df -gt
+bdf
+cd /opt/OV
+ls -lart
+cd 3parmonitor
+ls -alrt
+cd log
+ls -alrt
+cat output.log
+lanscan -a 
+ifconfig 
+ls -alrt
+tail -f 
+tail -100f
+tail -100f output.log
+ls -alrt
+cat temporal_statpd.log
+ls -alrt
+tail -100f output.log
+ls -alrt
+cd ..
+ls
+cd log
+ls -alrt
+ls -lart
+cat output.log
+ls -alrt
+tail -f output.log
+ls -alrt
+more output.log
+ls- alrt
+ls -alrt
+more output.log
+errsh

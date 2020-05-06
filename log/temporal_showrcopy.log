@@ -1,0 +1,128 @@
+
+Remote Copy System Information
+Status: Started, Normal
+
+Target Information
+
+Name      ID Type Status Options          Policy       
+DR3PARBGR  2 FC   ready  2FF70002AC01B50C mirror_config
+
+Link Information
+
+Target    Node  Address          Status Options
+DR3PARBGR 0:1:1 20210002AC01B50C Up     -      
+DR3PARBGR 0:1:2 20220002AC01B50C Up     -      
+DR3PARBGR 1:1:1 21210002AC01B50C Up     -      
+DR3PARBGR 1:1:2 21220002AC01B50C Up     -      
+receive   0:1:1 20210002AC01B50C Up     -      
+receive   0:1:2 20220002AC01B50C Up     -      
+receive   1:1:1 21210002AC01B50C Up     -      
+receive   1:1:2 21220002AC01B50C Up     -      
+
+Group Information
+
+Name             Target     Status   Role       Mode     Options                                                    
+RC_Continua_W_G1 DR3PARBGR  Started  Primary    Periodic Last-Sync 2018-01-09 12:18:38 ECT, Period 5m,over_per_alert
+  LocalVV                ID   RemoteVV               ID   SyncStatus    LastSyncTime           
+  ECBRPRW01_W02_DiscoC    150 ECBRPRW01_W02_DiscoC    460 Synced        2018-01-09 12:18:46 ECT
+  ECBRPRW03_DiscoC_Thin   232 ECBRPRW03_DiscoC_Thin   429 Synced        2018-01-09 12:18:44 ECT
+  ECBRPRW04_DiscoC_Thin   233 ECBRPRW04_DiscoC_Thin   430 Synced        2018-01-09 12:18:44 ECT
+  ECBRPRW07_DiscoC_Thin   213 ECBRPRW07_DiscoC_Thin   456 Synced        2018-01-09 12:18:40 ECT
+  ECBRPRW10_DiscoC        152 ECBRPRW10_DiscoC        461 Synced        2018-01-09 12:18:42 ECT
+  ECBRPRW11_DiscoC        149 ECBRPRW11_DiscoC        459 Synced        2018-01-09 12:18:41 ECT
+  ecbrprw18_DiscoC        148 ecbrprw18_DiscoC       3994 Synced        2018-01-09 12:18:41 ECT
+  ecbrprw27_Disco_C       296 ecbrprw27_Disco_C       450 Synced        2018-01-09 12:18:42 ECT
+  ecbrprw33_Disco_C_D     479 ecbrprw33_Disco_C_D    3825 Synced        2018-01-09 12:18:43 ECT
+  ecbrprw36_37_Dico_C_D  3966 ecbrprw36_37_Dico_C_D 56064 Synced        2018-01-09 12:18:54 ECT
+  ecbrprw38_DiscoC_D    28257 ecbrprw38_DiscoC_D    56065 Synced        2018-01-09 12:18:40 ECT
+  ecbrprw39_DiscoC_D    28258 ecbrprw39_DiscoC_D    56066 Synced        2018-01-09 12:18:40 ECT
+
+Name             Target     Status   Role       Mode     Options                                                    
+RC_Continua_W_G2 DR3PARBGR  Started  Primary    Periodic Last-Sync 2018-01-09 12:18:53 ECT, Period 5m,over_per_alert
+  LocalVV                   ID   RemoteVV                  ID   SyncStatus    LastSyncTime           
+  ecbrprw17_DiscoC           147 ecbrprw17_DiscoC           434 Synced        2018-01-09 12:18:55 ECT
+  ecbrprw23_DiscoC           274 ecbrprw23_DiscoC           442 Synced        2018-01-09 12:18:59 ECT
+  ecbrprw24_DiscoC           275 ecbrprw24_DiscoC           443 Synced        2018-01-09 12:18:58 ECT
+  ecbrprw25_DiscoC           289 ecbrprw25_DiscoC           431 Synced        2018-01-09 12:18:55 ECT
+  ECBRPRW28_W29_W30_H01_mig  431 ECBRPRW28_W29_W30_H01_mig  433 Synced        2018-01-09 12:19:34 ECT
+
+Name             Target     Status   Role       Mode     Options                                                    
+RC_Continua_W_G3 DR3PARBGR  Started  Primary    Periodic Last-Sync 2018-01-09 12:19:08 ECT, Period 5m,over_per_alert
+  LocalVV                  ID   RemoteVV                  ID   SyncStatus    LastSyncTime           
+  bgr186qv1_DiscoC_D_Thin   230 bgr186qv1_DiscoC_D_Thin    448 Synced        2018-01-09 12:19:11 ECT
+  bgr186w05_DiscoC_D_Thin   231 bgr186w05_DiscoC_D_Thin    449 Synced        2018-01-09 12:19:12 ECT
+  ecbrprsp01_DiscoC         273 ecbrprsp01_DiscoC          437 Synced        2018-01-09 12:19:17 ECT
+  ecbrprsp01_DiscoE        8290 ecbrprsp01_DiscoE          438 Synced        2018-01-09 12:19:10 ECT
+  ECBRPRW08_DiscoC_Thin     235 ECBRPRW08_DiscoC_Thin      452 Synced        2018-01-09 12:19:13 ECT
+  ECBRPRW12_DiscoC_Thin     212 ECBRPRW12_DiscoC_Thin      445 Synced        2018-01-09 12:19:12 ECT
+  ecbrprw14_DiscoC_D_Thin   236 ecbrprw14_DiscoC_D_Thin    453 Synced        2018-01-09 12:19:21 ECT
+  ECBRPRW15_DiscoC_Thin     237 ECBRPRW15_DiscoC_Thin      454 Synced        2018-01-09 12:19:23 ECT
+  ECBRPRW19_DiscoC          245 ECBRPRW19_DiscoC           440 Synced        2018-01-09 12:19:10 ECT
+  ECBRPRW20_DiscoC          241 ECBRPRW20_DiscoC           441 Synced        2018-01-09 12:19:13 ECT
+  ecbrprw35_discoC_D      54158 ecbrprw35_discoC_D      121384 Synced        2018-01-09 12:19:10 ECT
+
+Name             Target     Status   Role       Mode     Options                                                    
+RC_Continua_W_G4 DR3PARBGR  Started  Primary    Periodic Last-Sync 2018-01-09 12:19:23 ECT, Period 5m,over_per_alert
+  LocalVV                  ID   RemoteVV                  ID   SyncStatus    LastSyncTime           
+  bgr186b01_DiscoC           10 bgr186b01_DiscoC          3984 Synced        2018-01-09 12:19:29 ECT
+  bgr186b01_DiscoD           11 bgr186b01_DiscoD          3829 Synced        2018-01-09 12:19:24 ECT
+  bgr186rh1_DiscoC_Thin     220 bgr186rh1_DiscoC_Thin     3854 Synced        2018-01-09 12:19:31 ECT
+  bgrtallaap_DiscoC_D        77 bgrtallaap_DiscoC_D       3995 Synced        2018-01-09 12:19:25 ECT
+  ECBRPRAP1_SO_APP          477 ECBRPRAP1_SO_APP           451 Synced        2018-01-09 12:19:31 ECT
+  ECBRPRF01_DISCOC          249 ECBRPRF01_DISCOC           435 Synced        2018-01-09 12:19:27 ECT
+  ecbrprf02_discoC_D        555 ecbrprf02_discoC_D         436 Synced        2018-01-09 12:19:44 ECT
+  ecbrprjx01_DiscoC_D       240 ecbrprjx01_DiscoC_D       3824 Synced        2018-01-09 12:19:26 ECT
+  ecbrprw43_Disco_C        8061 ecbrprw43_Disco_C        83821 Synced        2018-01-09 12:19:26 ECT
+  puio186f00_DiscoC_D_clon  428 puio186f00_DiscoC_D_clon  3865 Synced        2018-01-09 12:19:37 ECT
+  sistemas_uio3_DiscoC       26 sistemas_uio3_DiscoC      3996 Synced        2018-01-09 12:19:24 ECT
+
+Name             Target     Status   Role       Mode     Options                                                    
+RC_Continua_W_G5 DR3PARBGR  Started  Primary    Periodic Last-Sync 2018-01-09 12:19:38 ECT, Period 5m,over_per_alert
+  LocalVV                ID   RemoteVV                ID   SyncStatus    LastSyncTime           
+  bgr186cw3_DiscoC      88430 bgr186cw3_DiscoC      109628 Synced        2018-01-09 12:19:39 ECT
+  ECBRPRW16_DiscoC_Thin   238 ECBRPRW16_DiscoC_Thin    439 Synced        2018-01-09 12:19:40 ECT
+  ecbrprwe01_DiscoC_D     553 ecbrprwe01_DiscoC_D     3826 Synced        2018-01-09 12:19:40 ECT
+  ecbrprwe23_DiscoC       271 ecbrprwe23_DiscoC       3827 Synced        2018-01-09 12:19:42 ECT
+  ecbrprwe24_DiscoC       272 ecbrprwe24_DiscoC       3828 Synced        2018-01-09 12:19:40 ECT
+
+Name              Target     Status   Role       Mode     Options                                                    
+RC_Continua_W_W01 DR3PARBGR  Started  Primary    Periodic Last-Sync 2018-01-09 12:19:38 ECT, Period 5m,over_per_alert
+  LocalVV                   ID   RemoteVV                   ID   SyncStatus    LastSyncTime           
+  POC_ECBRPRW01_DiscoC_PLD 23764 POC_ECBRPRW01_DiscoC_PLD 105712 Synced        2018-01-09 12:19:42 ECT
+
+Name                   Target     Status   Role       Mode     Options                                                    
+RC_Continua_bgrnet_dat DR3PARBGR  Started  Primary    Periodic Last-Sync 2018-01-09 12:19:53 ECT, Period 5m,over_per_alert
+  LocalVV       ID   RemoteVV        ID   SyncStatus    LastSyncTime           
+  ECBRBE12_DATA  562 ECBRBE12_DATA     20 Synced        2018-01-09 12:19:56 ECT
+  ECBRBE13_DATA  563 ECBRBE13_DATA 108837 Synced        2018-01-09 12:19:57 ECT
+  ECBRBE15_DATA  565 ECBRBE15_DATA 108839 Synced        2018-01-09 12:19:57 ECT
+  ECBRBE22_DATA  513 ECBRBE22_DATA 108841 Synced        2018-01-09 12:19:56 ECT
+  ECBRBE27_DATA  523 ECBRBE27_DATA   8554 Synced        2018-01-09 12:19:54 ECT
+
+Name                Target     Status   Role       Mode     Options                                                    
+RC_continua_Fuentes DR3PARBGR  Started  Primary    Periodic Last-Sync 2018-01-09 12:19:53 ECT, Period 5m,over_per_alert
+  LocalVV                       ID   RemoteVV                      ID   SyncStatus    LastSyncTime           
+  DRECBRHCF2_vgfuentes_replica 94960 DRECBRHCF2_vgfuentes_replica 95874 Synced        2018-01-09 12:19:54 ECT
+
+Name            Target     Status   Role       Mode     Options                                                    
+RC_continua_S21 DR3PARBGR  Started  Primary    Periodic Last-Sync 2018-01-09 12:20:08 ECT, Period 5m,over_per_alert
+  LocalVV             ID   RemoteVV              ID   SyncStatus    LastSyncTime           
+  ECBRHCP1_vgcics.0 111518 DRECBRHCP1_vgcics.0 116958 Synced        2018-01-09 12:20:13 ECT
+  ECBRHCP1_vgcics.1 111519 DRECBRHCP1_vgcics.1 116959 Synced        2018-01-09 12:20:16 ECT
+  ECBRHCP1_vgcics.2 111520 DRECBRHCP1_vgcics.2 116960 Synced        2018-01-09 12:20:12 ECT
+  ECBRHCP1_vgcics.3 111521 DRECBRHCP1_vgcics.3 116961 Synced        2018-01-09 12:20:12 ECT
+  ECBRHCP1_vgctmv9  111570 DRECBRHCP1_vgctmv9  116962 Synced        2018-01-09 12:20:09 ECT
+  ECBRHCP1_vghome1  111524 DRECBRHCP1_vghome1  116971 Synced        2018-01-09 12:20:09 ECT
+  ECBRHCP1_vglogs   111581 DRECBRHCP1_vglogs   116964 Synced        2018-01-09 12:20:11 ECT
+  ECBRHCP1_vgs21b   111633 DRECBRHCP1_vgs21b   116965 Synced        2018-01-09 12:20:09 ECT
+  ECBRHCP1_vgsfs    114512 DRECBRHCP1_vgsfs    119555 Synced        2018-01-09 12:20:09 ECT
+  ECBRHCP1_vgsp2.0  111572 DRECBRHCP1_vgsp2.0  116966 Synced        2018-01-09 12:20:09 ECT
+  ECBRHCP1_vgsp2.1  111573 DRECBRHCP1_vgsp2.1  116967 Synced        2018-01-09 12:20:09 ECT
+  ECBRHCP1_vgsp2.2  111574 DRECBRHCP1_vgsp2.2  116968 Synced        2018-01-09 12:20:09 ECT
+  ECBRHCP1_vgsp2.3  111575 DRECBRHCP1_vgsp2.3  116969 Synced        2018-01-09 12:20:09 ECT
+
+Name         Target     Status   Role       Mode     Options                                                    
+capacitacion DR3PARBGR  Stopped  Primary    Periodic Last-Sync 2017-12-04 15:39:27 ECT, Period 5m,over_per_alert
+  LocalVV           ID   RemoteVV            ID   SyncStatus    LastSyncTime           
+  POC_ECBRBE22_SO 104824 POC_DRECBRBE22_SO 107968 Stopped       2017-12-04 15:40:33 ECT
+

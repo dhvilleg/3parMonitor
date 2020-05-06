@@ -1,0 +1,100 @@
+cat monitor.conf
+vi monitor.conf
+cd ..
+cd log
+ls
+cat temporal_checkhealth.log
+ls
+cat temporal.out
+ls -alrt
+cat output.log
+cd ..
+ls
+cd etc
+ls
+cat monitor.conf
+cd ..
+ls
+cat 3parMonitor.sh.ori
+vi 3parMonitor.sh.ori
+ls etc
+cat etc/conection.conf
+ls
+sh -x -v 3parMonitor.sh.ori 3PAR_ECBPSTG05 usrhpsom
+vi 3parMonitor.sh.ori
+vi 3parMonitor.sh.ori
+sh -x -v 3parMonitor.sh.ori 3PAR_ECBPSTG05 usrhpsom
+ls
+cd log
+ls
+vi output.log
+ls
+cat output.log
+ls -lart 
+cat output.log
+cat temporal.out
+cd ..
+ls
+cat 3parMonitor.sh
+ls
+ls log
+cat log/temporal.out
+ls etc
+cat etc/monitor.conf
+cat log/temporal.out | grep "Expired Batteries"
+vi etc/monitor.conf
+sh -x -v 3parMonitor.sh.ori 3PAR_ECBPSTG05 usrhpsom
+ls
+cd log
+la
+ls 
+cat 
+ls
+cat output.log
+cd ..
+vi etc/monitor.conf
+ls
+cd log+
+cd log
+ls
+>output.log
+ls -lart
+cat output.log
+cd ..
+cd etc
+ls
+cat conection.conf
+vi conection.conf
+cd ..
+cd log
+ls
+cat output.log
+vi output.log
+cd ../etc}
+cd ../etc
+ls
+vi conection.conf
+bdf
+cd /var/opt/OV
+ls
+cd /usr/openv
+ls
+cd /opt/OV
+ls
+cd 3parmonitor
+ls
+cd log
+ls
+cat output.log
+cd ..
+ls
+cd etc
+ls
+cat conection.conf
+ssh 3PAR_ECBPSTG05@usrhpsom
+ping usrhpsom
+ssh usrhpsom@3PAR_ECBPSTG05
+ssh usrhpsom@3PAR_ECBPSTG01
+ssh usrhpsom@3PAR_ECBPSTG02
+ssh usrhpsom@3PAR_ECBPSTG03
+ssh usrhpsom@3PAR_ECBPSTG04
